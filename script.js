@@ -31,6 +31,20 @@ app.controller('MainCtrl', function($scope) {
     ]
 
   }
+  $scope.user3 = {
+    name: 'Nikki Pearl',
+    address: {
+      street: 'Streat time new',
+      post: 'Timoha',
+      dist: 'Barbara'
+    },
+    friends: [
+      'Lui',
+      'Chui',
+      'Tella'
+    ]
+
+  }
 
 });
 
